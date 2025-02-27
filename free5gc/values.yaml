@@ -45,27 +45,27 @@ global:
     name: n2network
     type: ipvlan
     masterIf: eno12409np1
-    subnetIP: 10.100.50.248
-    cidr: 29
-    gatewayIP: 10.100.50.254
-    excludeIP: 10.100.50.254
+    subnetIP: 10.212.14.0
+    cidr: 24
+    gatewayIP: 10.212.14.1
+    excludeIP: 10.212.14.1
   n3network:
     enabled: true
     name: n3network
     type: ipvlan
     masterIf: eno12409np1
-    subnetIP: 10.100.50.232
-    cidr: 29
-    gatewayIP: 10.100.50.238
+    subnetIP: 10.212.14.0
+    cidr: 24
+    gatewayIP: 10.212.14.1
     excludeIP: 10.100.50.238
   n4network:
     enabled: true
     name: n4network
     type: ipvlan
     masterIf: eno12409np1
-    subnetIP: 10.100.50.240
-    cidr: 29
-    gatewayIP: 10.100.50.246
+    subnetIP: 10.212.14.0
+    cidr: 24
+    gatewayIP: 10.212.14.1
     excludeIP: 10.100.50.246
   n6network:
     enabled: true
